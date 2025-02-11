@@ -1,7 +1,7 @@
 {
-    "name": "ffmpeg-command-generator",
+    "name": "ffmpeg-client",
     "version": "1.0.0",
-    "description": "A simple FFmpeg command generator",
+    "description": "A TypeScript library for building and executing FFmpeg commands through a remote FFmpeg service",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {

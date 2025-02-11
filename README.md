@@ -1,4 +1,4 @@
-# FFmpeg Command Generator
+# FFmpeg Client
 
 A TypeScript library for building and executing FFmpeg commands through a remote FFmpeg service. This package provides a simple and intuitive interface for video processing tasks.
 
@@ -13,13 +13,13 @@ A TypeScript library for building and executing FFmpeg commands through a remote
 ## Installation
 
 ```bash
-npm install ffmpeg-command-generator
+npm install ffmpeg-client
 ```
 
 ## Quick Start
 
 ```typescript
-import { FFMPEGClient } from "ffmpeg-command-generator";
+import { FFMPEGClient } from "ffmpeg-client";
 
 // Initialize the client
 const client = new FFMPEGClient(
